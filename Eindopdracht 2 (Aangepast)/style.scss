@@ -1,0 +1,22 @@
+@import '_card';
+@import '_grid';
+@import '_buttons';
+
+$bodyColor: #c3cfe2;
+
+* {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+body {
+    background-color: $bodyColor;
+    height: 2000px;
+}
+
+h1 {
+    margin: 0px 0px 10px 20px;
+    padding-top: 50px;
+    text-align: center;
+}
